@@ -16,7 +16,7 @@
 *************************************** */
 
 body {
-	background-color: #eeeeee;
+	background-color: #ccd0cc;
 }
 
 /***** DEFAULT LAYOUT ******/
@@ -27,7 +27,7 @@ body {
 .elgg-page-default .elgg-page-header > .elgg-inner {
 	min-width: 980px;
 	margin: 0 auto;
-	height: 90px;
+	height: 100px;
 }
 .elgg-page-default .elgg-page-body > .elgg-inner {
 	min-width: 980px;
@@ -37,12 +37,12 @@ body {
 	min-width: 940px;
 	margin: 0 auto;
 	padding: 5px 20px;
-	border-top: 1px solid #DEDEDE;
+	border-top: 1px solid #DCDCDC;
 }
 
 /***** TOPBAR ******/
 .elgg-page-topbar {
-	background-color: #333333;
+	background-color: #394040;
 	position: relative;
 	height: 24px;
 	z-index: 9000;
@@ -71,12 +71,12 @@ body {
 /***** PAGE HEADER ******/
 .elgg-page-header {
 	position: relative;
-	background: #333333;
+	background: #394040;
 	padding-top: 24px;
 }
 .elgg-page-header > .elgg-inner {
 	position: relative;
-	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/n1_theme/_graphics/n1_small.png) no-repeat 650px bottom;
+	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/anillosur_theme/_graphics/anillosur_small.png) no-repeat 650px 0px;
 }
 
 /***** LIQUID LAYOUT *******/

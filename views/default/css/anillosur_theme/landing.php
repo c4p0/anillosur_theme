@@ -1,29 +1,38 @@
-#n1-landing {
+#anillosur-landing {
 	height: 250px;
-	background-image: url('<?php echo elgg_get_site_url(); ?>mod/n1_theme/_graphics/n1.png');
+	background-image: url('<?php echo elgg_get_site_url(); ?>mod/anillosur_theme/_graphics/anillosur.png');
 	background-repeat: no-repeat;
 	display: table;
 	margin: 30px 0 50px auto;
 	min-width: 80%;
 }
 
-#n1-landing-inner {
+#anillosur-landing-inner {
 	display: table-cell;
 	vertical-align: middle;
 	padding-left: 220px;
 
 }
 
-#n1-landing-title {
-	font-size: 2.1em;
+#anillosur-landing-title {
+	font-size: 2.3em;
 	font-weight: bold;
 	line-height: 0.9em;
 }
 
-#n1-landing-subtitle {
-	font-size: 1.4em;
-	color: #666;
+#anillosur-landing-subtitle {
+        font-size: 1.4em;
+        color: #666;
 }
+
+#anillosur-landing-title2 {
+        font-size: 1.6em;
+	color: red;
+}
+
+
+
+
 
 .elgg-sidebar h3 {
 	font-size: 1.6em;
